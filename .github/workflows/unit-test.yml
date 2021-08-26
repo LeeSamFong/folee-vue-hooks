@@ -18,9 +18,10 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14'
+          cache: 'yarn'
       - name: Install dependencies
-        run: npm run bootstrap
+        run: yarn bootstrap
       - name: Lint
-        run: npm run lint
+        run: yarn lint
       - name: Test
-        run: npm run test
+        run: yarn test
