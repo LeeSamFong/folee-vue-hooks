@@ -9,21 +9,26 @@
   "homepage": "https://github.com/LeeSamFong/folee-vue-hooks",
   "license": "MIT",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
+    "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-vue": "^7.16.0",
+    "flush-promises": "^1.0.2",
     "husky": "^7.0.2",
+    "jest": "^27.0.6",
     "lerna": "^4.0.0",
     "lint-staged": "^11.1.2",
     "prettier": "2.3.2",
+    "ts-jest": "^27.0.5",
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
