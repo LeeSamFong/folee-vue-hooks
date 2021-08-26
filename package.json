@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "bootstrap": "npx lerna bootstrap",
+    "bootstrap": "npm ci && npx lerna bootstrap",
     "test": "jest",
     "lint": "eslint ./packages --ext .js,.ts"
   },
