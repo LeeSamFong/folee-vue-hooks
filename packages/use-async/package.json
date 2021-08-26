@@ -1,0 +1,7 @@
+{
+  "name": "@folee-vue-hooks/use-async",
+  "version": "0.0.0",
+  "author": "LeeSamFong <597171538@qq.com>",
+  "license": "MIT",
+  "main": "dist/index.js"
+}
