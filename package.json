@@ -10,7 +10,9 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "test": "jest"
+    "bootstrap": "npx lerna bootstrap",
+    "test": "jest",
+    "lint": "eslint ./packages --ext .js,.ts"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
