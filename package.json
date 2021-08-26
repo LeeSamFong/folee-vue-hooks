@@ -1,0 +1,43 @@
+{
+  "name": "@folee/vue-hooks",
+  "private": false,
+  "description": "A Custom Hooks Library for Vue3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeeSamFong/folee-vue-hooks.git"
+  },
+  "homepage": "https://github.com/LeeSamFong/folee-vue-hooks",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.16.0",
+    "husky": "^7.0.2",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.1.2",
+    "prettier": "2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "vue": "^3.1.*"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,ts}": "prettier --write --ignore-unknown"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
