@@ -1,0 +1,20 @@
+{
+  "name": "folee-vue-hooks",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "LeeSamFong <597171538@qq.com>",
+  "homepage": "https://github.com/LeeSamFong/folee-vue-hooks",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeSamFong/folee-vue-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeeSamFong/folee-vue-hooks/issues"
+  },
+  "dependencies": {
+    "@folee-vue-hooks/hooks": "^0.0.0"
+  }
+}

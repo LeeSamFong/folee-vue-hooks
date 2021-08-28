@@ -1,0 +1,15 @@
+{
+  "name": "@folee-vue-hooks/hooks",
+  "version": "0.0.0",
+  "author": "LeeSamFong <597171538@qq.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
