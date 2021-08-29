@@ -1,3 +1,1 @@
-import { useAsync } from '@folee-vue-hooks/hooks'
-
-export { useAsync }
+export * from '@folee-vue-hooks/hooks'
