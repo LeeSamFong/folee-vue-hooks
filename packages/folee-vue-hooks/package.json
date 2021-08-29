@@ -15,6 +15,5 @@
     "url": "https://github.com/LeeSamFong/folee-vue-hooks/issues"
   },
   "dependencies": {
-    "@folee-vue-hooks/hooks": "^0.0.0"
   }
 }
