@@ -1,22 +1,25 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "esnext",
     "declaration": true,
     "noImplicitAny": false,
     "removeComments": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "noLib": false,
-    "target": "es6",
-    "sourceMap": true,
+    "target": "esnext",
     "lib": [
-      "ESNext",
+      "esnext",
       "DOM"
     ],
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true
+    "allowJs": true,
+    "emitDeclarationOnly": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "rootDir": "packages/folee-vue-hooks"
   },
   "exclude": [
     "node_modules"

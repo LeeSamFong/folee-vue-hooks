@@ -5,6 +5,7 @@ dist
 
 lib
 /es/
+es
 
 # Log files
 npm-debug.log*
