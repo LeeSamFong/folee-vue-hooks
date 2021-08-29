@@ -11,7 +11,7 @@ yarn build:entry
 
 echo 'copying entry types'
 rsync -a dist/entry/types/ dist/folee-vue-hooks/es/
-rsync -a dist/entry/types dist/folee-vue-hooks/lib/
+rsync -a dist/entry/types/ dist/folee-vue-hooks/lib/
 
 echo 'copying source code'
 cp -R packages dist/folee-vue-hooks
