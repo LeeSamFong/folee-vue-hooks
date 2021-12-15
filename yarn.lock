@@ -474,6 +474,9 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@folee-vue-hooks/hooks@file:./packages/hooks":
+  version "0.0.0"
+
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
   resolved "https://registry.nlark.com/@humanwhocodes/config-array/download/@humanwhocodes/config-array-0.5.0.tgz?cache=0&sync_timestamp=1625264021699&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40humanwhocodes%2Fconfig-array%2Fdownload%2F%40humanwhocodes%2Fconfig-array-0.5.0.tgz#1407967d4c6eecd7388f83acf1eaf4d0c6e58ef9"
@@ -8748,11 +8751,6 @@ typescript@^4.3.5:
   version "4.3.5"
   resolved "https://registry.nlark.com/typescript/download/typescript-4.3.5.tgz?cache=0&sync_timestamp=1629962365236&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftypescript%2Fdownload%2Ftypescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
   integrity sha1-TRw3zBbok5c8RaBohrcRMjTxGfQ=
-
-typescript@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.nlark.com/typescript/download/typescript-4.4.2.tgz?cache=0&sync_timestamp=1630012140746&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftypescript%2Fdownload%2Ftypescript-4.4.2.tgz#6d618640d430e3569a1dfb44f7d7e600ced3ee86"
-  integrity sha1-bWGGQNQw41aaHftE99fmAM7T7oY=
 
 uglify-js@^3.1.4:
   version "3.14.1"

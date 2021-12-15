@@ -1,6 +1,6 @@
 import flushPromises from 'flush-promises'
 
-import { useAsync } from '@folee-vue-hooks/hooks'
+import { useAsync } from '../index'
 import { isAxiosCancel } from '../utils/is-cancel'
 
 describe('use-async hook', () => {
