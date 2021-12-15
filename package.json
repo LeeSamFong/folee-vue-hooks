@@ -24,7 +24,8 @@
     "packages/*"
   ],
   "dependencies": {
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "@folee-vue-hooks/hooks": "workspace:*"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",

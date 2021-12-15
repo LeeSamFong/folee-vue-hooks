@@ -1,6 +1,6 @@
 import { onMounted, onUnmounted } from 'vue'
 
-type Options =
+export type EventListenerOptions =
   | boolean
   | (AddEventListenerOptions & {
       immediate?: boolean // 是否立即执行监听
@@ -9,7 +9,7 @@ type Options =
 export const useEventListener = <K extends keyof WindowEventMap>(
   type: K,
   listener: (this: Window, ev: WindowEventMap[K]) => any,
-  options?: Options,
+  options?: EventListenerOptions,
 ) => {
   const addListener = () => {
     window.addEventListener(type, listener, options)
@@ -32,5 +32,3 @@ export const useEventListener = <K extends keyof WindowEventMap>(
 
   return removeListener
 }
-
-useEventListener('scroll', () => null)

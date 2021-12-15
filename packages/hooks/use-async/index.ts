@@ -1,7 +1,9 @@
 import { computed, ref } from 'vue'
 import { isAxiosCancel } from './utils/is-cancel'
 
-function useAsync<T, K extends unknown[]>(func: (...args: K) => Promise<T>) {
+export function useAsync<T, K extends unknown[]>(
+  func: (...args: K) => Promise<T>,
+) {
   const data = ref<T | undefined>()
   const error = ref<unknown>(undefined)
   const status = ref<'idle' | 'loading' | 'error' | 'cancel' | 'success'>(
@@ -56,5 +58,3 @@ function useAsync<T, K extends unknown[]>(func: (...args: K) => Promise<T>) {
     cancel,
   }
 }
-
-export default useAsync
