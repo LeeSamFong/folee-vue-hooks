@@ -21,6 +21,8 @@ jobs:
         env:
           TAG_VERSION: ${{env.TAG_VERSION}}
           GIT_HEAD: ${{env.GIT_HEAD}}
+      - name: Gen .npmrc
+        run: echo "//registry.npmjs.com/:_authToken=${{ secrets.NPM_PUBLISH_TOKEN }}" > ./.npmrc
       - name: Publish
         run: sh ./scripts/publish.sh
 
