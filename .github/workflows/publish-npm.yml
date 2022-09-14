@@ -21,4 +21,6 @@ jobs:
         env:
           TAG_VERSION: ${{env.TAG_VERSION}}
           GIT_HEAD: ${{env.GIT_HEAD}}
+      - name: Publish
+        run: sh ./scripts/publish.sh
 
