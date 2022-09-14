@@ -1,0 +1,17 @@
+name: Publish to NPM registry
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+      - name: Build
+        run: sh ./scripts/build.sh
+
